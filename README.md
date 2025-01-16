@@ -2,8 +2,9 @@
 Simple utility that checks if you have a parking ticket in Novi Sad, Serbia.
 
 ## Building
-1. Replace `PLATE_NUMBER` constant with your plate number
-2. ```go build -o parkingcheck```
+1. Have golang installed (at least 1.20)
+2. Replace `PLATE_NUMBER` constant with your plate number
+3. ```go build -o parkingcheck```
 
 ## Running
 1. Move `parkingcheck` to `/usr/local/bin/` and fix permissions if necessary
