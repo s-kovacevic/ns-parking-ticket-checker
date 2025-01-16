@@ -10,6 +10,7 @@ import (
 )
 
 
+// Format should be: NS000AA
 const PLATE_NUMBER = ""
 
 func main() {
