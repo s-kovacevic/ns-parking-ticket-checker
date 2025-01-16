@@ -10,7 +10,7 @@ import (
 )
 
 
-const PLATE_NUMBER = "NS686RM"
+const PLATE_NUMBER = ""
 
 func main() {
 	req, err := http.NewRequest("GET", fmt.Sprintf("https://portal.parkingns.rs/portal/auth/checkPPK?platePr=%s", PLATE_NUMBER), nil)
